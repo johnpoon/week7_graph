@@ -1,0 +1,59 @@
+{
+    "title": {
+        "text": "Hong Kong Population by gender"
+    },
+    "legend": {
+        "data": ["香港","中國內地／澳門／台灣","其他國家"]
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis":  {
+        "type": "value"
+    },
+    "yAxis": {
+        "type": "category",
+        "data": ["2001","2006","2011"]
+    },
+    "series": [
+        {
+            "name": "香港",
+            "type": "bar",
+            "stack": "总量",
+            "label": {
+                "normal": {
+                    "show": true,
+                    "position": "insideRight"
+                }
+            },
+            "data": [404894, 4138844, 4278126]
+        },
+        {
+            "name": "中國內地／澳門／台灣",
+            "type": "bar",
+            "stack": "总量",
+            "label": {
+                "normal": {
+                    "show": true,
+                    "position": "insideRight"
+                }
+            },
+            "data": [2263571,2298956,2267917]
+        },
+        {
+            "name": "其他國家",
+            "type": "bar",
+            "stack": "总量",
+            "label": {
+                "normal": {
+                    "show": true,
+                    "position": "insideRight"
+                }
+            },
+            "data": [439924,426546,525533]
+        },
+    
+
